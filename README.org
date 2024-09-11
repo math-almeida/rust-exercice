@@ -1,0 +1,27 @@
+#+title: =Rust Exercise=
+#+AUTHOR: Matheus Almeida
+
+This exercise receives a csv with financial transactions and returns the list of customers with their respective balances.
+There are a few csv files used for testing in =fixtures= folder.
+
+* How to Use
+
+Use =cargo= to build and run the executable:
+
+#+begin_src sh
+cargo run -- <PATH>
+#+end_src
+
+where =<PATH>= is the path to the csv file:
+
+#+begin_src sh
+cargo run -- transactions.csv
+#+end_src
+
+* Testing
+
+Unit tests can be run with:
+
+#+begin_src sh
+cargo test
+#+end_src
